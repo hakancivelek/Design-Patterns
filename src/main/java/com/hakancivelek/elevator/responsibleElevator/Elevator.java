@@ -1,11 +1,10 @@
 package com.hakancivelek.elevator.responsibleElevator;
 
-import com.hakancivelek.elevator.encapsulatedElevator.Floor;
-
 public interface Elevator {
-    void goUp();
 
-    void goDown();
+    void openDoor();
 
-    void go(Floor intFloor);
+    void closeDoor();
+
+    void go(Floor desiredFloor);
 }

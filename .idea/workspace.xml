@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevator.java" afterDir="false" />
+    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740398211062</updated>
-      <workItem from="1740398212262" duration="9479000" />
+      <workItem from="1740398212262" duration="14444000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>

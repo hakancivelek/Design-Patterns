@@ -1,10 +1,11 @@
 package com.hakancivelek.srp.existSolution.domain;
 
+import com.hakancivelek.srp.existSolution.ex.InsufficentFundException;
+import com.hakancivelek.srp.existSolution.ex.NegativeAmountException;
+import com.hakancivelek.srp.existSolution.util.ATMProperties;
+
 import java.io.Serializable;
 import java.util.List;
-
-import org.javaturk.dp.ch03.srp.customerService.solution.ex.*;
-import org.javaturk.dp.ch03.srp.customerService.solution.util.ATMProperties;
 
 public class Account implements Serializable {
 	protected String iban;

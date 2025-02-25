@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevatorTest.java" afterDir="false" />
+    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/customerService/ATMLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/customerService/CustomerDAOI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/dao/CustomerDAOI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/domain/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/domain/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/CustomerAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/CustomerAlreadyLoggedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/CustomerLockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/ImproperCustomerCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/InsufficentFundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/MaxNumberOfFailedLoggingAttemptExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/NegativeAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/NoProperPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/NoSuchCustomerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/ex/WrongCustomerCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/ATMLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/ATMProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/CD1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/TcknValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/existSolution/util/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/srp/problem/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/elevator/responsibleElevator/ResponsibleElevator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/_Yazilim/Akin Kaldiroglu Trainings/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/srp/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +86,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\domain" />
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\solution\dao" />
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\solution\util" />
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\solution\ex" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740398211062</updated>
-      <workItem from="1740398212262" duration="14444000" />
+      <workItem from="1740398212262" duration="16369000" />
+      <workItem from="1740481778068" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -80,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740409587035</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Responsible Elevator added">
+      <created>1740419507303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740419507303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Responsible Elevator added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsible Elevator added" />
   </component>
 </project>

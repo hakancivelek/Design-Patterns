@@ -3,7 +3,7 @@ package com.hakancivelek.singleton;
 public class SingletonClient {
 
 	public static void main(String[] args) {
-		for (int i = 0; i<200; i++){
+		for (int i = 0; i<10; i++){
 			Singleton s = Singleton.getInstance();
 			s.printName();
 		}

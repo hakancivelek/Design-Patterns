@@ -1,10 +1,3 @@
-/*
- * All rights reserved
- * Written by Akin Kaldiroglu for Design Patterns Seminar
- * 27 May 2009
- * akink@bilginc.com
- */
-
 package com.hakancivelek.singleton;
 
 public class Singleton {

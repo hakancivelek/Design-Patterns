@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadedLazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadedLazySingletonClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
@@ -88,7 +91,8 @@
       <workItem from="1740568246161" duration="1283000" />
       <workItem from="1740598148826" duration="7000" />
       <workItem from="1741638505621" duration="1178000" />
-      <workItem from="1741716047919" duration="2505000" />
+      <workItem from="1741716047919" duration="3479000" />
+      <workItem from="1741806353219" duration="1826000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -118,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741639086751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added to LazySingleton!">
+      <created>1741720975506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741720975506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +140,7 @@
     <MESSAGE value="Responsible Elevator added" />
     <MESSAGE value="srp added" />
     <MESSAGE value="added to static Singleton!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to static Singleton!" />
+    <MESSAGE value="added to LazySingleton!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to LazySingleton!" />
   </component>
 </project>

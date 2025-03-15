@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingletonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
       <workItem from="1741638505621" duration="1178000" />
       <workItem from="1741716047919" duration="3479000" />
       <workItem from="1741806353219" duration="2735000" />
-      <workItem from="1742027555297" duration="1474000" />
+      <workItem from="1742027555297" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741810096980</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added to ThreadSafeLazySingleton!">
+      <created>1742029086928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742029086928</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="added to static Singleton!" />
     <MESSAGE value="added to LazySingleton!" />
     <MESSAGE value="added to ThreadedLazySingleton!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to ThreadedLazySingleton!" />
+    <MESSAGE value="added to ThreadSafeLazySingleton!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to ThreadSafeLazySingleton!" />
   </component>
 </project>

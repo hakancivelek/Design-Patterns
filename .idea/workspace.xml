@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
+    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="update for practicing!">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/Serializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonReflectionClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializable.java" afterDir="false" />
@@ -12,8 +12,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingletonClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/SingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/SingletonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingletonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadedLazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadedLazySingleton.java" afterDir="false" />
@@ -111,7 +109,8 @@
       <workItem from="1742414818030" duration="17000" />
       <workItem from="1744031132036" duration="599000" />
       <workItem from="1744375603599" duration="605000" />
-      <workItem from="1744454966768" duration="7061000" />
+      <workItem from="1744454966768" duration="8961000" />
+      <workItem from="1744791298995" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742029804924</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update for practicing!">
+      <created>1744470189663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744470189663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +190,7 @@
     <MESSAGE value="added to ThreadedLazySingleton!" />
     <MESSAGE value="added to ThreadSafeLazySingleton!" />
     <MESSAGE value="added to DoubleCheckedLockingSingleton! Volatile!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to DoubleCheckedLockingSingleton! Volatile!" />
+    <MESSAGE value="update for practicing!" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for practicing!" />
   </component>
 </project>

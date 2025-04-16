@@ -1,19 +1,19 @@
 package com.hakancivelek.singleton;
 
 public class LazySingleton {
-    private static LazySingleton singleton;
-    int counter;
-    String name;
+    private static LazySingleton lazySingleton;
+    private static int counter;
+    private String name;
 
     private LazySingleton() {
         counter++;
-        name = "LazySingleton" + counter;
+        name = "LazySingleton " + counter;
     }
 
     public static LazySingleton getInstance() {
-        if (singleton == null)
-            singleton = new LazySingleton();
-        return singleton;
+        if (lazySingleton == null)
+            lazySingleton = new LazySingleton();
+        return lazySingleton;
     }
 
     public void printName() {

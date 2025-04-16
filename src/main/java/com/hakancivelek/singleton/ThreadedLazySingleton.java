@@ -1,21 +1,19 @@
 package com.hakancivelek.singleton;
 
 public class ThreadedLazySingleton {
-    private static ThreadedLazySingleton singleton;
-
-    private static int count;
+    private static ThreadedLazySingleton threadedLazySingleton;
+    private static int counter;
     private String name;
 
     private ThreadedLazySingleton() {
-        name = "ThreadedLazySingleton" + count;
-        count++;
+        counter++;
+        name = "ThreadedLazySingleton " + counter;
     }
 
     public static ThreadedLazySingleton getInstance() {
-        if (singleton == null)
-            singleton = new ThreadedLazySingleton();
-
-        return singleton;
+        if (threadedLazySingleton == null)
+            threadedLazySingleton = new ThreadedLazySingleton();
+        return threadedLazySingleton;
     }
 
     public void printName() {

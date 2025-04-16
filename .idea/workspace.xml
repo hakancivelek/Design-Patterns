@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/LazySingletonClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/ThreadSafeLazySingletonClient.java" afterDir="false" />
@@ -110,7 +109,7 @@
       <workItem from="1744031132036" duration="599000" />
       <workItem from="1744375603599" duration="605000" />
       <workItem from="1744454966768" duration="8961000" />
-      <workItem from="1744791298995" duration="2435000" />
+      <workItem from="1744791298995" duration="5758000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744470189663</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update for practicing! (LazySingleton)">
+      <created>1744794094526</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744794094527</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +197,7 @@
     <MESSAGE value="added to ThreadSafeLazySingleton!" />
     <MESSAGE value="added to DoubleCheckedLockingSingleton! Volatile!" />
     <MESSAGE value="update for practicing!" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for practicing!" />
+    <MESSAGE value="update for practicing! (LazySingleton)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for practicing! (LazySingleton)" />
   </component>
 </project>

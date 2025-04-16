@@ -8,13 +8,13 @@ public class LazySingletonClient {
             lazySingleton.printName();
         }
 
-        Singleton singleton1 = Singleton.getInstance();
-        System.out.println("\nHashcode: " + singleton1.hashCode());
+        LazySingleton lazySingleton1 = LazySingleton.getInstance();
+        System.out.println("\nHashcode: " + lazySingleton1.hashCode());
 
-        Singleton singleton2 = Singleton.getInstance();
-        System.out.println("\nHashcode: " + singleton2.hashCode());
+        LazySingleton lazySingleton2 = LazySingleton.getInstance();
+        System.out.println("\nHashcode: " + lazySingleton2.hashCode());
 
-        if (singleton1 == singleton2)
+        if (lazySingleton1 == lazySingleton2)
             System.out.println("\nThe same object!");
         else
             System.out.println("Different objects!");

@@ -1,23 +1,21 @@
 package com.hakancivelek.singleton;
 
 public class ThreadSafeLazySingleton {
-
-    private static volatile ThreadSafeLazySingleton singleton;
-
-    private static int count;
+    private static int counter;
     private String name;
+    private static volatile ThreadSafeLazySingleton threadSafeLazySingleton;
 
     private ThreadSafeLazySingleton() {
-        name = "ThreadSafeLazySingleton" + count;
-        count++;
+        counter++;
+        name = "ThreadSafeLazySingleton " + counter;
     }
 
     public static ThreadSafeLazySingleton getInstance() {
         synchronized (ThreadSafeLazySingleton.class) {
-            if (singleton == null)
-                singleton = new ThreadSafeLazySingleton();
+            if (threadSafeLazySingleton == null)
+                threadSafeLazySingleton = new ThreadSafeLazySingleton();
+            return threadSafeLazySingleton;
         }
-        return singleton;
     }
 
     public void printName() {

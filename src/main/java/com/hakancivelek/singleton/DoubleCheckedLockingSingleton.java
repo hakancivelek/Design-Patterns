@@ -1,15 +1,13 @@
 package com.hakancivelek.singleton;
 
 public class DoubleCheckedLockingSingleton {
-    //	private static DoubleCheckedLockingSingleton singleton;
-    private static volatile DoubleCheckedLockingSingleton singleton;
-
-    private static int count;
+    private static int counter = 0;
+    private static DoubleCheckedLockingSingleton singleton;
     private String name;
 
     private DoubleCheckedLockingSingleton() {
-        name = "DoubleCheckedLockingSingleton" + count;
-        count++;
+        counter++;
+        name = "DoubleCheckedLockingSingleton " + counter;
     }
 
     public static DoubleCheckedLockingSingleton getInstance() {
@@ -20,10 +18,11 @@ public class DoubleCheckedLockingSingleton {
                 }
             }
         }
+
         return singleton;
     }
 
-    public void printName() {
+    public void printName(){
         System.out.println(name);
     }
 }

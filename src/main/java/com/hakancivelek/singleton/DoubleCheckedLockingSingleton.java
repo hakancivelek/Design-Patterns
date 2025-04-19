@@ -2,7 +2,7 @@ package com.hakancivelek.singleton;
 
 public class DoubleCheckedLockingSingleton {
     private static int counter = 0;
-    private static DoubleCheckedLockingSingleton singleton;
+    private static volatile DoubleCheckedLockingSingleton singleton;
     private String name;
 
     private DoubleCheckedLockingSingleton() {

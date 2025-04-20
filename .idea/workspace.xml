@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="update for practicing! (ThreadSafeLazySingleton)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/BillPughSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/BillPughSingletonClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/Serializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonReflectionClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingletonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/DoubleCheckedLockingSingletonClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,8 @@
       <workItem from="1744454966768" duration="8961000" />
       <workItem from="1744791298995" duration="8066000" />
       <workItem from="1744972082357" duration="1607000" />
-      <workItem from="1745072173675" duration="1715000" />
+      <workItem from="1745072173675" duration="3462000" />
+      <workItem from="1745142091750" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -194,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744973298720</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update for practicing! (DoubleCheckedLockingSingleton)">
+      <created>1745074930823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745074930823</updated>
+    </task>
+    <task id="LOCAL-00014" summary="volatile added!">
+      <created>1745075068043</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745075068043</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +228,13 @@
     <MESSAGE value="update for practicing! (LazySingleton)" />
     <MESSAGE value="update for practicing! (ThreadedLazySingletonClient)" />
     <MESSAGE value="update for practicing! (ThreadSafeLazySingleton)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for practicing! (ThreadSafeLazySingleton)" />
+    <MESSAGE value="update for practicing! (DoubleCheckedLockingSingleton)" />
+    <MESSAGE value="volatile added!" />
+    <option name="LAST_COMMIT_MESSAGE" value="volatile added!" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Design_Patterns$BillPughSingletonClient.ic" NAME="BillPughSingletonClient Coverage Results" MODIFIED="1745157109737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hakancivelek.singleton.*</FILTER>
+    </SUITE>
   </component>
 </project>

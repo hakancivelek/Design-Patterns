@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="update for practicing! (ThreadSafeLazySingleton)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/BillPughSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/BillPughSingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/enumuration/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/enumuration/EnumSingletonTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/Serializer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonReflectionClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializable.java" afterDir="false" />
@@ -109,7 +109,8 @@
       <workItem from="1744791298995" duration="8066000" />
       <workItem from="1744972082357" duration="1607000" />
       <workItem from="1745072173675" duration="3462000" />
-      <workItem from="1745142091750" duration="3004000" />
+      <workItem from="1745142091750" duration="3721000" />
+      <workItem from="1745917389544" duration="2622000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -209,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745075068043</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update for practicing! (BillPughSingleton)">
+      <created>1745157278746</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745157278746</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update for practicing! (BillPughSingleton)">
+      <created>1745157319641</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1745157319641</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +245,8 @@
     <MESSAGE value="update for practicing! (ThreadSafeLazySingleton)" />
     <MESSAGE value="update for practicing! (DoubleCheckedLockingSingleton)" />
     <MESSAGE value="volatile added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="volatile added!" />
+    <MESSAGE value="update for practicing! (BillPughSingleton)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for practicing! (BillPughSingleton)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$BillPughSingletonClient.ic" NAME="BillPughSingletonClient Coverage Results" MODIFIED="1745157109737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

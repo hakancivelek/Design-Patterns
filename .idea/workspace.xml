@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="update for practicing! (ThreadSafeLazySingleton)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/enumuration/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/enumuration/EnumSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonReflectionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/singleton/problem/SingletonSerializableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/DirectorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/EmployeeRandomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/HR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/ManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/PayrollOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/factory/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +115,8 @@
       <workItem from="1744972082357" duration="1607000" />
       <workItem from="1745072173675" duration="3462000" />
       <workItem from="1745142091750" duration="3721000" />
-      <workItem from="1745917389544" duration="2622000" />
+      <workItem from="1745917389544" duration="3262000" />
+      <workItem from="1746000907003" duration="6996000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745157319641</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update for practicing! (EnumSingleton)">
+      <created>1745952113405</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745952113405</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +259,8 @@
     <MESSAGE value="update for practicing! (DoubleCheckedLockingSingleton)" />
     <MESSAGE value="volatile added!" />
     <MESSAGE value="update for practicing! (BillPughSingleton)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for practicing! (BillPughSingleton)" />
+    <MESSAGE value="update for practicing! (EnumSingleton)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for practicing! (EnumSingleton)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$BillPughSingletonClient.ic" NAME="BillPughSingletonClient Coverage Results" MODIFIED="1745157109737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

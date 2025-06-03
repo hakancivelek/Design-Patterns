@@ -1,4 +1,7 @@
-package com.hakancivelek.student.factory;
+package com.hakancivelek.student;
+
+import com.hakancivelek.student.EducationLevel;
+import com.hakancivelek.student.Faculty;
 
 import java.util.Random;
 

@@ -1,6 +1,7 @@
 package com.hakancivelek.student.factory;
 
-import java.awt.*;
+import com.hakancivelek.student.EducationLevel;
+
 import java.util.ArrayList;
 
 public class Test {

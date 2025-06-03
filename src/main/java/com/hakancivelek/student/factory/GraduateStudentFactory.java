@@ -1,9 +1,12 @@
 package com.hakancivelek.student.factory;
 
+import com.hakancivelek.student.EducationLevel;
+import com.hakancivelek.student.StudentRandomizer;
+
 public class GraduateStudentFactory implements StudentFactory {
     @Override
-    public GraduateStudent create(EducationLevel educationLevel) {
-        return new GraduateStudent(StudentRandomizer.createId(), StudentRandomizer.createFirstName(),
+    public Student create(EducationLevel educationLevel) {
+        return new Student(StudentRandomizer.createId(), StudentRandomizer.createFirstName(),
                 StudentRandomizer.createLastName(), StudentRandomizer.createFaculty(),
                 EducationLevel.GRADUATE);
     }

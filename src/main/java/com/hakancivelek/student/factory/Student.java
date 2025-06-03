@@ -1,5 +1,8 @@
 package com.hakancivelek.student.factory;
 
+import com.hakancivelek.student.EducationLevel;
+import com.hakancivelek.student.Faculty;
+
 public class Student {
     private Long id;
     private String firstName;

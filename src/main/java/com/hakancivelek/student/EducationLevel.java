@@ -1,4 +1,4 @@
-package com.hakancivelek.student.factory;
+package com.hakancivelek.student;
 
 public enum EducationLevel {
     ASSOCIATE,

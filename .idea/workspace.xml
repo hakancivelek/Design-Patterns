@@ -4,16 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/GUIFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/ex1/Test.java" afterDir="false" />
+    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="abstract factory sl1 added!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/ButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/ListFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/TableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/GUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/GUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/OSXButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/OSXCFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/OSXList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/OSXTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/WinButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/WinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/WinList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl3/WinTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/GUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/GUIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/GUIFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl2/GUIFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/sl1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +56,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hakancivelek"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hakancivelek&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hakancivelek/Design-Patterns",
-    "accountId": "46911a42-6d67-4e61-ae0a-4813dc2978a3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hakancivelek/Design-Patterns&quot;,
+    &quot;accountId&quot;: &quot;46911a42-6d67-4e61-ae0a-4813dc2978a3&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2tUENBTiPbFBSKwtQd18mE0twWM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,7 +90,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/student/joshuaBloch",
+    "last_opened_file_path": "D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/abstractFactory/sl3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,17 +99,18 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.splitter.proportion": "0.28105906",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory\sl3" />
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\student\joshuaBloch" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\singleton\problem" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\domain" />
-      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\solution\dao" />
-      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\solution\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory\ex1" />
@@ -146,7 +171,8 @@
       <workItem from="1748265400318" duration="1253000" />
       <workItem from="1748957877169" duration="5767000" />
       <workItem from="1749022860264" duration="2118000" />
-      <workItem from="1749026377714" duration="5790000" />
+      <workItem from="1749026377714" duration="6620000" />
+      <workItem from="1749048071738" duration="3404000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -295,11 +321,30 @@
       <option name="project" value="LOCAL" />
       <updated>1749023350871</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="abstract factory sl1 added!">
+      <option name="closed" value="true" />
+      <created>1749034940347</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1749034940347</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -322,7 +367,12 @@
     <MESSAGE value="added to different type Students using factory pattern" />
     <MESSAGE value="Students factory patterns updated. Joshua Bloch's logic type Student's constructor methods added!" />
     <MESSAGE value="public Student constructor has been updated to private" />
-    <option name="LAST_COMMIT_MESSAGE" value="public Student constructor has been updated to private" />
+    <MESSAGE value="abstract factory sl1 added!" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory sl1 added!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$BillPughSingletonClient.ic" NAME="BillPughSingletonClient Coverage Results" MODIFIED="1745157109737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

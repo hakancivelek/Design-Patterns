@@ -1,4 +1,4 @@
-package com.hakancivelek.abstractFactory.sl1;
+package com.hakancivelek.abstractFactory.sl2;
 
 public class GUIFactoryImpl implements GUIFactory {
     @Override

@@ -11,7 +11,7 @@ public class Student {
     private Faculty faculty;
     private EducationLevel educationLevel;
 
-    public Student(Long id, String firstName, String lastName, Faculty faculty, EducationLevel educationLevel) {
+    private Student(Long id, String firstName, String lastName, Faculty faculty, EducationLevel educationLevel) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

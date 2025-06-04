@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/joshuaBloch/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/joshuaBloch/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/AssociateStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/AssociateStudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/AssociateStudentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/DoctorateStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/DoctorateStudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/DoctorateStudentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/EducationLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/EducationLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/GraduateStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/GraduateStudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/GraduateStudentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/StudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/StudentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/StudentRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/StudentRandomizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/UndergraduateStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/UndergraduateStudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/factory/UndergraduateStudentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/joshuaBloch/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/student/joshuaBloch/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/student/joshuaBloch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/student/joshuaBloch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\student\joshuaBloch" />
@@ -134,7 +119,8 @@
       <workItem from="1747211284623" duration="3886000" />
       <workItem from="1747257304407" duration="1152000" />
       <workItem from="1748265400318" duration="1253000" />
-      <workItem from="1748957877169" duration="4935000" />
+      <workItem from="1748957877169" duration="5767000" />
+      <workItem from="1749022860264" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -269,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747257452814</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Students factory patterns updated. Joshua Bloch's logic type Student's constructor methods added!">
+      <created>1748963580994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1748963580994</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +287,8 @@
     <MESSAGE value="update for practicing! (EnumSingleton)" />
     <MESSAGE value="added to Factory!" />
     <MESSAGE value="added to different type Students using factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="added to different type Students using factory pattern" />
+    <MESSAGE value="Students factory patterns updated. Joshua Bloch's logic type Student's constructor methods added!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Students factory patterns updated. Joshua Bloch's logic type Student's constructor methods added!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Design_Patterns$BillPughSingletonClient.ic" NAME="BillPughSingletonClient Coverage Results" MODIFIED="1745157109737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

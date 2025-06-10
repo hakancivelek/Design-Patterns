@@ -4,23 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="added new abstractFactories">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelACustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelAFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelAPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelAReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelARoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelBCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelBPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelBReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelBRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/HotelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/abstractFactory/hotel/Test.java" afterDir="false" />
+    <list default="true" id="2413b2c9-427c-44c3-a637-9c702a77bcc0" name="Changes" comment="added to gui package">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/Artillery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/ArtilleryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/ArtilleryFactoryImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/SoldierFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/SoldierFactoryImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/one/VehicleFactoryImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/two/ArtilleryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/two/CommonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/two/SoldierFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/two/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hakancivelek/prototype/two/VehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -63,38 +65,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/abstractFactory/sl3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28105906&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/_Yazilim/Akin Kaldiroglu Trainings/Udemy/Design Patterns/My Practices/Design Patterns/src/main/java/com/hakancivelek/prototype/one",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.28105906",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\prototype\one" />
+      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\prototype\1" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory\sl3" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory" />
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\student\joshuaBloch" />
-      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\singleton\problem" />
-      <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\srp\domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\_Yazilim\Akin Kaldiroglu Trainings\Udemy\Design Patterns\My Practices\Design Patterns\src\main\java\com\hakancivelek\abstractFactory\ex1" />
@@ -109,8 +111,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
       </set>
     </attachedChunks>
   </component>
@@ -161,7 +163,11 @@
       <workItem from="1749107532969" duration="2268000" />
       <workItem from="1749109847909" duration="64000" />
       <workItem from="1749109931718" duration="3655000" />
-      <workItem from="1749150067243" duration="1208000" />
+      <workItem from="1749150067243" duration="2515000" />
+      <workItem from="1749235556687" duration="2622000" />
+      <workItem from="1749463103671" duration="6294000" />
+      <workItem from="1749474312600" duration="4485000" />
+      <workItem from="1749541670378" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1740409587035</created>
@@ -326,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749051551096</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added to university example">
+      <option name="closed" value="true" />
+      <created>1749151479337</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749151479337</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added to gui package">
+      <option name="closed" value="true" />
+      <created>1749151549038</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1749151549038</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +388,9 @@
     <MESSAGE value="public Student constructor has been updated to private" />
     <MESSAGE value="abstract factory sl1 added!" />
     <MESSAGE value="added new abstractFactories" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new abstractFactories" />
+    <MESSAGE value="added to university example" />
+    <MESSAGE value="added to gui package" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to gui package" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
